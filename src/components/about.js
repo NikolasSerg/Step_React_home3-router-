@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-class Comp1 extends React.Component{
+class About extends React.Component{
 
     render(){
         return(
             <li>
-                Comp1
+                About
             </li>    
         )
     }
 }
 
-export default Comp1;
+export default About;
