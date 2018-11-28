@@ -5,17 +5,18 @@ import './index.css';
 
 import Router from './router';
 
-// import Comp1 from './components/comp1';
-// import Comp2 from './components/comp2';
-// import Comp3 from './components/comp3';
+// import Home from './components/home';
 
 class Main extends React.Component{
 
     render(){
         return(
-            <BrowserRouter>
-                <Router />
-            </BrowserRouter>
+            <div>
+                {/* <Home/> */}
+                <BrowserRouter>
+                    <Router />
+                </BrowserRouter>
+            </div>
         );
     }
 }
